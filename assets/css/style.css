@@ -358,7 +358,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -391,7 +391,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #194255;
 }
 
 /*--------------------------------------------------------------
@@ -635,10 +635,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: rgb(32, 30, 30);
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid rgb(32, 30, 30);
 }
 
 .services .icon i {
@@ -648,11 +648,11 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: lightcyan;
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: black;
 }
 
 .services .title {
@@ -784,11 +784,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: lightcyan;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: rgb(32, 30, 30);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -835,15 +835,15 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: rgb(136, 182, 182);
+  color: rgb(32, 30, 30);
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
-  color: #fff;
+  background: rgb(136, 182, 182);
+  color: rgb(32, 30, 30);
 }
 
 .contact .php-email-form {
@@ -960,53 +960,6 @@ section {
 
   100% {
     transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 20px 0;
-  background: #f9f9f9;
-}
-
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #0e2442;
-  content: "/";
-}
-
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-
-  .breadcrumbs ol {
-    display: block;
-  }
-
-  .breadcrumbs ol li {
-    display: inline-block;
   }
 }
 
